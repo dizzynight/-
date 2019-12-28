@@ -28,6 +28,7 @@ void add1()  //添加路由器
 			code[d][f] = code[f][d];
 		}
 	}
+	build();
 }
 void add2() //添加边
 {
@@ -41,4 +42,5 @@ void add2() //添加边
 	cin >> g;
 	code[c][f] = g;
 	code[f][c] = g;
+	build();
 }

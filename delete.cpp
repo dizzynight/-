@@ -15,6 +15,7 @@ void delete1()//É¾³ýÂ·ÓÉÆ÷
 			code[c][b] = 999;
 			code[b][f] = 999;
 		}
+	build();
 }
 void delete2()//É¾³ý±ß
 {
@@ -25,4 +26,5 @@ void delete2()//É¾³ý±ß
 	cin >> h;
 	code[g][h] = 999;
 	code[h][g] = 999;
+	build();
 }
