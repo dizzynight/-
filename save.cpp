@@ -58,4 +58,22 @@ void save1()    //保存路由表在文件中
 		}
 	}
 	out.close();
+	 k = 0, i = 0;
+	fileEmpty("text2.txt");
+	ofstream put("text2.txt", ios::app);//app表示每次操作前均定位到文件末尾
+	if (out.fail())
+	{
+		cout << "error\n";
+	}
+	put << "路由器的总数为" << endl << d << endl;
+	for (i = 1; i <= d; i++)
+		for (k = 1; k <= d; k++)
+		{
+			if (k != i)
+			{
+				put << "路由器" << i << "到路由器" << k << "的边的长度为" << endl << text[i][k] << endl;
+			}
+			else continue;
+		}
+	put.close();
 }

@@ -13,3 +13,4 @@ void input1();
 void save();
 void input2();
 void save1();
+void input3();
