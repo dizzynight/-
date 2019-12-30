@@ -20,6 +20,7 @@ void add1()  //Ìí¼ÓÂ·ÓÉÆ÷
 			cin >> g;
 			code[c][d] = g;
 		}
+		code[d][d] = 0;
 	}
 	for (f = 1; f <= d; f++)
 	{
