@@ -4,6 +4,7 @@ using namespace std;
 
 void delete1()//删除路由器
 {
+	cout << "yangjiacheng" << endl;
 	int c = 0;
 	int f = 0;
 	cout << "请输入你要删除的路由器" << endl;
