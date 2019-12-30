@@ -20,7 +20,7 @@ void refer()   //查询某个路由器的路由表
 			break; 
 		}	
 	}
-	if (z != d+1)
+	if (z != d+1&&z<=d+1)
 	{
 		for (z = 1; z <= d; z++)
 		{
