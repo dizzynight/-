@@ -16,9 +16,12 @@ void refer()   //查询某个路由器的路由表
 	for (z = 1; z <= d; z++)
 	{
 		if (code[t][z] != 999)
+		{
+			cout << z<<endl;
 			break;
+		}	
 	}
-	if (z != d)
+	if (z != d+1)
 	{
 		for (z = 1; z <= d; z++)
 		{
